@@ -40,9 +40,9 @@ const tasks = [
       { title: "Write executive summary", isComplete: false },
       { title: "Compile budget estimates", isComplete: true },
       { title: "Review with team", isComplete: false },
-      { title: "Submit proposal", isComplete: false },
+      { title: "Submit proposal", isComplete: true },
     ],
-    isPinned: true,
+    isPinned: false,
   },
   {
     title: "Prepare for Presentation",
@@ -51,17 +51,17 @@ const tasks = [
     todoList: [
       { title: "Draft slides", isComplete: true },
       { title: "Add graphics", isComplete: false },
-      { title: "Practice speech", isComplete: false },
+      { title: "Practice speech", isComplete: true },
       { title: "Incorporate feedback", isComplete: false },
     ],
-    isPinned: false,
+    isPinned: true,
   },
   {
     title: "Develop Marketing Strategy",
     description: "Outline the marketing strategy for the upcoming quarter.",
     body: "Include social media, email campaigns, and events.",
     todoList: [
-      { title: "Research market trends", isComplete: false },
+      { title: "Research market trends", isComplete: true },
       { title: "Identify target audience", isComplete: true },
       { title: "Plan social media posts", isComplete: false },
       { title: "Schedule email campaigns", isComplete: false },
@@ -76,10 +76,10 @@ const tasks = [
     todoList: [
       { title: "Draft agenda", isComplete: false },
       { title: "Collect weekly reports", isComplete: true },
-      { title: "Send out meeting invite", isComplete: false },
+      { title: "Send out meeting invite", isComplete: true },
       { title: "Prepare discussion points", isComplete: false },
     ],
-    isPinned: false,
+    isPinned: true,
   },
   {
     title: "Code Review",
@@ -91,7 +91,7 @@ const tasks = [
       { title: "Write feedback comments", isComplete: false },
       { title: "Approve changes", isComplete: false },
     ],
-    isPinned: true,
+    isPinned: false,
   },
   {
     title: "Client Follow-Up",
@@ -115,7 +115,7 @@ const tasks = [
       { title: "Fix broken links", isComplete: false },
       { title: "Test new features", isComplete: false },
     ],
-    isPinned: true,
+    isPinned: false,
   },
   {
     title: "Financial Report",
@@ -139,7 +139,7 @@ const tasks = [
       { title: "Get approval from management", isComplete: false },
       { title: "Communicate changes to employees", isComplete: false },
     ],
-    isPinned: true,
+    isPinned: false,
   },
   {
     title: "Product Launch",
@@ -175,7 +175,7 @@ const tasks = [
       { title: "Report discrepancies", isComplete: false },
       { title: "Reorder low stock items", isComplete: false },
     ],
-    isPinned: false,
+    isPinned: true,
   },
   {
     title: "Social Media Campaign",
@@ -188,7 +188,7 @@ const tasks = [
       { title: "Schedule posts", isComplete: false },
       { title: "Respond to comments and messages", isComplete: false },
     ],
-    isPinned: true,
+    isPinned: false,
   },
   {
     title: "Office Renovation",
@@ -212,7 +212,7 @@ const tasks = [
       { title: "Conduct training", isComplete: false },
       { title: "Collect feedback", isComplete: false },
     ],
-    isPinned: true,
+    isPinned: false,
   },
 ];
 
