@@ -36,7 +36,7 @@ async function main() {
   app.use("/api/tasks", taskRoutes);
   app.use("/api/auth", authRoutes);
 
-
+  // Catch-all route
   app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
   });
