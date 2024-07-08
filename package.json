@@ -26,6 +26,7 @@
     "morgan": "^1.10.0",
     "npm": "^10.8.1",
     "passport": "^0.7.0",
+    "path": "^0.12.7",
     "require": "^0.4.4"
   },
   "devDependencies": {
