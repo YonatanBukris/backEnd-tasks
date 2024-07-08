@@ -18,14 +18,12 @@ async function main() {
   // parse json body in request (for POST, PUT, PATCH requests)
 
   app.use(express.static("public"));
-  
+
   app.use(express.json());
 
   // allow CORS for local development (for production, you should configure it properly)
   app.use(
-    cors({
-      origin: "http://localhost:5173",
-    })
+    cors()
   );
 
   // Routes
